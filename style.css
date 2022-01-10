@@ -1,0 +1,21 @@
+html{
+    cursor: none;
+}
+.kursor{
+    position: relative;
+}
+.kursor::after{
+    content: '';
+    border: 24px solid transparent;
+    border-bottom-color: red;
+}
+.doira{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 1s ease;
+}
